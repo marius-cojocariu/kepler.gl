@@ -25,7 +25,7 @@ import {geojsonFromPoints} from '../mapbox-utils';
 import MapboxGLLayer from '../mapboxgl-layer';
 import HeatmapLayerIcon from './heatmap-layer-icon';
 
-const MAX_ZOOM_LEVEL = 18;
+const MAX_ZOOM_LEVEL = 24;
 
 export const heatmapVisConfigs = {
   opacity: 'opacity',
